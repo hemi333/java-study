@@ -12,6 +12,9 @@ LocalDate, LocalTime, LocalDateTime
  */
 public class LocalDateTimeTest01 {
 	public static void main(String[] args) {
+		// now(): 현재의 날짜 시간
+		// of(): 지정하는 값
+		
 		// 1. LocalDate
 		LocalDate d1 = LocalDate.now();
 		System.out.println(d1); // 2024-07-16
